@@ -2,12 +2,10 @@
 
 
 /**
- * main - print "Programming is like building a multilingual puzzle
- * followed by a new line."
- * Return: Always 0 (Success)
+ * main -print "Programming is like building a multilingual puzzle
+ * followed by a newline."
+ * return 0.
  */
-
-
 
 int main(void) 
 
