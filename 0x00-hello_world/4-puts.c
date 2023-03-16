@@ -4,13 +4,14 @@
 /**
  * main -print "Programming is like building a multilingual puzzle
  * followed by a newline.
- * return: ALways 0 (success)
+ * Return: Always 0.
  */
 
- int main(void)
+int main(void)
 
- {
+{
 	char str[] = "\"Programming is like building a multilingual puzzle";
+
 	puts(str);
 	return (0);
- }
+}
