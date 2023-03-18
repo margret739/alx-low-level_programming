@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main - print a text according to number
+ * main - prints a text according to number
  * Return: Always (Success)
  *
  */
