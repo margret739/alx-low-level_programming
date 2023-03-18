@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - entry point
  * Return: Always 0 (Success)
  */
 
@@ -18,4 +18,4 @@ int main(void)
 	putchar(d);
 	putchar('\n');
 	return (0);
-}	
+}
