@@ -5,26 +5,28 @@
 /**
  * _strdup - function returns a pointer to the duplicated string
  * @str: character string
- * Return: a pointer to the duplicated string
+ * Return: a pointer
  */
 
 char *_strdup(char *str)
 
 {
 	char *up;
-	int n, i = 0;
+	int k, r = 0;
 
-	if (str == NULL)
+	if (str == 0)
 		return (NULL);
-	n = 0;
-	while (str[n] != '\0')
-		n++;
+	k = 0;
+	while (str[k] != '\0')
+		k++;
 
-	up = (char *)malloc(n + 1 * sizeof(char));
-	if (up == NULL)
+	up = (char *)malloc(k + 1 * (sizeof(char)));
+
+	if (up == 0)
 		return (NULL);
 
-	for (i = 0; str[i]; i++)
-		up[n] = str[n];
+	for (r = 0; str[r]; r++)
+		up[r] = str[r];
+
 	return (up);
 }
