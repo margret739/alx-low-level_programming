@@ -2,10 +2,10 @@
 #include "lists.h"
 
 /**
- * print_list - prints all elements of list
+ * print_list - prints all elements of linked list
  * @h: points to the list_t list to print
  *
- * Return: number of nodes
+ * Return: number of nodes printed
  */
 
 size_t print_list(const list_t *h)
@@ -22,5 +22,6 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		t++;
 	}
+
 	return (t);
 }
