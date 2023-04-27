@@ -4,7 +4,7 @@
 /**
  * add_node_end - adds a new node at the end
  * @head: double pointer to the list_t list
- * @str: dtring to put in new node
+ * @str: string to put in new node
  * Return: address of the new element, else NULL
  */
 
@@ -31,10 +31,10 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		*head = new;
 	}
+
 	while (add->next)
-	{
-		add = add->next;
-	}
+	add = add->next;
+
 	add->next = new;
 
 	return (new);
