@@ -12,7 +12,7 @@ listint_t *reverse_listint(listint_t **head)
 	listint_t *first;
 	listint_t *tail;
 
-	if (head == NULL)
+	if (*head == NULL || head == NULL)
 		return (NULL);
 
 	tail = NULL;
