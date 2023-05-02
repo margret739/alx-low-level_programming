@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 
 size_t looplist_listint_count(listint_t *head);
@@ -27,7 +26,7 @@ size_t looplist_listint_count(listint_t *head)
 	{
 		if (first == last)
 		{
-			first = last;
+			first = head;
 			while (first != last)
 			{
 				first = first->next;
