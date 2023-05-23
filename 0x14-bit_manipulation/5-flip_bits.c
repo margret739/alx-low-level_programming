@@ -14,7 +14,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned long int fast;
 	unsigned long int slow = n ^ m;
 
-	for (l = 63; l >=0; l--)
+	for (l = 63; l >= 0; l--)
 	{
 		fast = slow >> l;
 		if (fast & 1)
